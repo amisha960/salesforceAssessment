@@ -6,7 +6,9 @@ public class ApexTraining {
      List<Opportunity> newOp = new List<Opportunity>();
      for(Opportunity updatedOp : Op)
      {
-         if(updatedOp.Amount > 10008){
+
+         if(updatedOp.Amount > 10009){
+
          updatedOp.StageName = 'Closed-won';
          }
          newOp.add(updatedOp);
